@@ -1,0 +1,85 @@
+p {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+h1 {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Big Shoulders Display;
+}
+
+.sedans-div {
+  background-color: hsl(31, 77%, 52%);
+  width: 155px;
+  height: 350px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  display: inline-block;
+  border: none;
+}
+
+.suvs-div {
+  background-color: hsl(184, 100%, 22%);
+  width: 155px;
+  height: 350px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  display: inline-block;
+}
+
+.luxury-div {
+  background-color: hsl(179, 100%, 13%);
+  width: 155px;
+  height: 350px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  display: inline-block;
+}
+.sedans-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-family: Lexend Deca;
+}
+.sedans-button:active {
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-family: Lexend Deca;
+}
+.suvs-button:active {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-family: Lexend Deca;
+}
+.luxury-button:active {
+  background-color: hsl(179, 100%, 13%);
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
